@@ -1,0 +1,23 @@
+
+nome tabella : Cars;
+
+colonne:
+
+id:                         BIGINT                  PK: AUTO_INCREMENT,UNIQUE,NOT NULL
+marca:                      VARCHAR(50)             NOT NULL    -> Kia
+modello:                    VARCHAR(100)            NOT NULL    -> Xceed
+allestimento:               VARCHAR(50)             NOT NULL    -> Evolution
+accessori_extra:            VARCHAR(255)            NULL        -> tetto panoramico
+segmento_appartenenza:      VARCHAR(50)             NOT NULL    -> segmento C
+colore:                     VARCHAR(20)             NOT NULL    -> Bianco
+cilindrata:                 VARCHAR(10)             NOT NULL    -> es 1.6 cm3
+potenza:                    VARCHAR(10)             NOT NULL    -> es 136 cv
+trasmissione:               VARCHAR(20)             NOT NULL    -> automatico
+alimentazione:              VARCHAR(20)             NOT NULL    -> Diesel
+km_percorsi:                INT                     NOT NULL    -> 81.000
+ultima_revisione:           DATE                    NOT NULL    -> YYYY/MM/GG
+ultimo_tagliando:           DATE                    NOT NULL    -> YYYY/MM/GG
+condizione_veicolo:         VARCHAR(255)            NOT NULL    -> testo..
+prezzo_vendita:             FLOAT(7,2)              NOT NULL    -> 22.000,00
+località:                   VARCHAR(100)            DEFAULT(Novara)
+venditore:                  VARCHAR(50)             DEFAULT(Autoscout24)
